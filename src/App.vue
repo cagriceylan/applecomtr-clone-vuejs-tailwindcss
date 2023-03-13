@@ -1,0 +1,19 @@
+<template>
+  <div id="app">
+    <HelloWorld msg="buraya menü gelecek"/>
+  </div>
+</template>
+
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+
+import './assets/tailwind.css';
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld
+  }
+}
+</script>
+
