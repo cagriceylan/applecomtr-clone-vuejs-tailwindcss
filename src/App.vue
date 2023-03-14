@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="buraya menü gelecek"/>
+    <HelloWorld msg="buraya menü gelecek" :menuItems="menuItems"/>
   </div>
 </template>
 
@@ -13,7 +13,23 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  data(){
+    return{    
+      menuItems:["Store",
+                  "Mac",
+                  "iPad",
+                  "iPhone",
+                  "Watch",
+                  "Airpods",
+                  "Tv / Ev",
+                  "Aksesuarlar",
+                  "Destek"]}
+
+
   }
+ 
+
 }
 </script>
 
